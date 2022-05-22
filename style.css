@@ -57,7 +57,7 @@ a:hover{
     text-decoration: none;
     color: white;
 }
-a{
+.nav-link{
     color: white!important;
 }
 .navbar{

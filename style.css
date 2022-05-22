@@ -10,9 +10,8 @@ header{
     width: 25%;
     background-color: white;
 }
-.row{
+.row1{
     display: block;
-    position: relative;
 }
 .form1{
     margin: 10%;
@@ -28,8 +27,13 @@ header{
     color: white;
 }
 .img{
-    width: 100px;
-    margin-left: 35%;
+    width: 150px;
+    position: relative;
+    margin: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+
 }
 .main{
     max-width: 100%;
@@ -50,14 +54,7 @@ p{
     color: white;
     height: 50px;
 }
-a {
-    text-decoration: none;
-    color: rgb(241, 126, 126);
-}
-a:hover{
-    text-decoration: none;
-    color: white;
-}
+
 .nav-link{
     color: white!important;
 }
@@ -78,4 +75,44 @@ a:hover{
 .navbar-light .navbar-toggler{
     margin: 3px;
     border-color: white;
+}
+.card1{
+    height: 55vh;
+    margin: 20px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px rgb(209, 208, 208);
+    opacity: 0.5;
+    transition: 0.3s ease;
+}
+.card1:hover{
+    opacity: 1;
+
+}
+.img-aboutus{
+    width: 150px;
+    border-radius: 100px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.socials{
+    padding: 0;
+    list-style-type: none;
+}
+.socials1{
+    display: inline;
+}
+.social{
+    color: #f25f54;
+}
+.social i{
+    
+}
+.social:hover{
+    color: #d1544b;
+}
+.contact{
+    margin: 10px;
+}
+.row{
+    margin-bottom: 20px;
 }

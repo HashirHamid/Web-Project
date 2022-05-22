@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f10cd542d4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
@@ -65,18 +66,82 @@
             Deep learning helps to generate computational models consisting of multiple processing layers to learn representations of data with multiple levels of abstraction. Compared to machine learning that learns to conduct classification tasks directly from data, deep learning learns and abstracts the relevant information automatically while the data are being processed. Within the deep learning networks, the processing layers are interconnected via nodes (neurons), and each hidden layer receives information from the previous layer. Of all deep learning networks, convolutional neural networks (CNNs) are most commonly used, because CNNs can transform a multidimensional input image into a desired output. In general, a CNN is composed of an input layer and an output layer with several hidden layers in between and the most common layers are convolution, activation or ReLU (rectified linear activation function unit), and pooling. Each layer learns to detect different features in the input data. Deep learning networks have been widely used in the artificial intelligence (AI) field for signal data classification and we believe that they could be powerful tools for analyzing X-ray images.
             <br><br>
             Using deep learning, here we generate AI models to only read chest X-ray images of patients to reach nearly 100% diagnostic accuracy for Covid-19. </p>
-            <button class="btn" style="width: 40%; margin: 0; position: absolute; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%);">Let's Diagnose!</button>
         </div>
-        <div class="row mt-5">
+        <button class="btn" style="width: 30%; margin: 0; position: absolute; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%);">Let's Diagnose!</button>
+
+        <div class="row mt-5 justify-content-center">
             <h2>About us</h2>
+            <div class="col-sm-auto card card1">
+              <img src="assets/120910903_2622827378030448_8816173333346406303_n.jpg" alt="" class="img-aboutus">
+              <h3>Hashir Hamid</h3>
+              <span>Web Developer</span>
+              <ul class="socials">
+                <li class="socials1">
+                  <a href="#" class="social"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                </li>
+                <li class="socials1">
+                  <a href="#" class="social"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </li>
+                <li class="socials1">
+                  <a href="#" class="social"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                </li>
+                <li class="socials1">
+                  <a href="#" class="social"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                </li>
+              </ul>
+              
+              
+            </div>
+            <div class="col-sm-auto card card1">
+              <img src="assets/WhatsApp Image 2022-05-22 at 10.40.00 PM.jpeg" alt="" class="img-aboutus">
+              <h3>Ehtisham Ejaz</h3>
+              <span>Web Developer</span>
+              <ul class="socials">
+                <li class="socials1">
+                  <a href="#" class="social"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                </li>
+                <li class="socials1">
+                  <a href="#" class="social"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                </li>
+                <li class="socials1">
+                  <a href="#" class="social"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                </li>
+                <li class="socials1">
+                  <a href="#" class="social"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                </li>
+              </ul>
+            </div>
         </div>
         <div class="row">
             <h2>Contact us</h2>
-            <p>Add text here</p>
+            <span class="contact"> <strong>Office Address:</strong> <br>Xyzsdadawe </span>
+            <span class="contact"> <strong>Contact no:</strong> <br>23456678</span>
+            <span class="contact"> <strong>Email:</strong> <br>Example@gmail.com</span>
         </div>
         <div class="row">
-            <h2>Help and support</h2>
-            <p>Add text here</p>
+          <h2>Help and support</h2>
+            <div class="col-md-6">
+              <label for="Name" class="form-label fw-bold">First Name <span style="color: red;">*</span></label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+              <label for="Name" class="form-label fw-bold">Last Name <span style="color: red;">*</span></label>
+              <input type="text" class="form-control" required>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="email" class="form-label fw-bold">Email <span style="color: red;">*</span></label>
+            <input type="email" class="form-control" required>
+          </div>
+          <div class="col-md-6">
+            <label for="number" class="form-label fw-bold">Contact <span style="color: red;">*</span></label>
+            <input type="tel" class="form-control mb-5" required>
+          </div>
+        </div>
+        <div class="row">
+          <label for="Comments" class="form-label fw-bold">How we may help you? <span style="color: red;">*</span></label>
+          <textarea name="Comments" id="comments" cols="20" rows="10"></textarea>
         </div>
     </div>
     </body>

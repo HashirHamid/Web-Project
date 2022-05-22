@@ -12,6 +12,7 @@ header{
 }
 .row{
     display: block;
+    position: relative;
 }
 .form1{
     margin: 10%;

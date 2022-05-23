@@ -1,4 +1,5 @@
 body{
+    margin-top: 80px;
     background-color: rgb(250, 249, 249);
 }
 header{
@@ -7,14 +8,20 @@ header{
 .container1{
     height: 30rem;
     display: table;
-    width: 25%;
+    width: 30%;
+    padding: 50px;
+    background-color: white;
+}
+.container2{
+    display: table;
+    width: 70%;
     background-color: white;
 }
 .row1{
     display: block;
 }
 .form1{
-    margin: 10%;
+    padding: 5%;
 }
 .btn{
     width: 100%;
@@ -23,11 +30,11 @@ header{
     color: white;
 }
 .btn:hover{
-    background-color: rgb(210, 83, 74);
+    background-color: rgb(184, 74, 66);
     color: white;
 }
 .img{
-    width: 150px;
+    width: 180px;
     position: relative;
     margin: 0;
     left: 50%;
@@ -40,6 +47,9 @@ header{
     height: auto;
     display: table;
     margin: 0 auto;
+}
+.navbar{
+    background-color: #f25f54;
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -75,6 +85,9 @@ p{
 .navbar-light .navbar-toggler{
     margin: 3px;
     border-color: white;
+}
+.card{
+    margin-bottom: 50px;
 }
 .card1{
     height: 55vh;
@@ -115,4 +128,28 @@ p{
 }
 .row{
     margin-bottom: 20px;
+}
+.pdf-btn{
+    position: absolute;
+    margin: 0;
+    top: 43%;
+    left: 50%;
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-50%, -50%);
+}
+.submit-btn{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(250, 249, 249);
+    color:#f25f54;
+    border: 1px solid #f25f54;
+}
+.submit-btn:hover{
+    background-color: #f25f54;
+    color: rgb(250, 249, 249);
+    
 }
